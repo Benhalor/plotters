@@ -14,7 +14,7 @@ exclude = ["doc-template/*"]
 
 [dependencies]
 num-traits = "0.2.14"
-chrono = { version = "0.4.19", optional = true }
+chrono = { git = "https://github.com/chronotope/chrono", rev = "f6bd567", optional = true }
 plotters-svg = {version = "^0.3.*", optional = true}
 
 [dependencies.plotters-backend]
